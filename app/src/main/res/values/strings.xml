@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">BookHotel</string>
+
+    <string name="introPage_1">Intro Page 1</string>
+    <string name="introPage_2">Intro Page 2</string>
+    <string name="introPage_3">Intro Page 3</string>
+
+    <string name="mainPage_home">Home</string>
+    <string name="mainPage_book">Book</string>
+    <string name="mainPage_account">Account</string>
 </resources>

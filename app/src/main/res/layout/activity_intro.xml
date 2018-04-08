@@ -4,41 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".IntroActivity">
+
     <android.support.v4.view.ViewPager
-        android:id="@+id/viewPagerMain"
+        android:id="@+id/viewPagerIntro"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/colorPrimaryDark"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:background="@android:color/transparent">
 
         <Button
-            android:id="@+id/buttonHome"
+            android:id="@+id/buttonLeft"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:background="@color/colorGray"
-            android:text="Home" />
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:text="Bỏ Qua" />
 
         <Button
-            android:id="@+id/buttonBook"
+            android:id="@+id/buttonRight"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:background="@color/colorGray"
-            android:text="Book" />
-
-        <Button
-            android:id="@+id/buttonAccount"
-            android:layout_width="wrap_content"
-            android:background="@color/colorGray"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:text="Account" />
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:text="Tiếp Theo" />
     </RelativeLayout>
-
 </RelativeLayout>
