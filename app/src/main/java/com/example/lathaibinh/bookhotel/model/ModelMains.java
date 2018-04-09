@@ -1,4 +1,6 @@
-package com.example.lathaibinh.bookhotel;
+package com.example.lathaibinh.bookhotel.model;
+
+import com.example.lathaibinh.bookhotel.R;
 
 public enum ModelMains {
 
