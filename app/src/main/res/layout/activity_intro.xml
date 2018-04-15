@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.IntroActivity">
+    tools:context=".view.activity.IntroActivity">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPagerIntro"
@@ -26,7 +26,6 @@
             android:background="@android:color/transparent"
             android:textColor="@android:color/white"
             android:text="Bỏ Qua" />
-
         <Button
             android:id="@+id/buttonRight"
             android:layout_width="wrap_content"
