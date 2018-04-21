@@ -8,4 +8,6 @@
     <color name="colorGreen">#50A625</color>
     <color name="colorBackground">#49b3e8</color>
     <color name="colorWhite">#eee</color>
+    <color name="colorLightGray">#eee</color>
+    <color name="colorOrange">#FF6600</color>
 </resources>

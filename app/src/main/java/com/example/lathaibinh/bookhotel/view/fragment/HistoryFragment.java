@@ -90,7 +90,7 @@ public class HistoryFragment extends Fragment {
         ArrayList<DataShop> arrayList = new ArrayList<>();
         for (int i = 0; i < 2; i++) {
             DataShop item = new DataShop();
-            item.setHinhAnh("http://lavenderstudio.vn/wp-content/uploads/_d_improd_/chup-hinh-quang-cao-nha-hang-04_f_improf_800x533.jpg");
+            item.setHinhAnh("http://www.rainbowhotel.com.vn/UserFiles/image/SuuTapAnh/2_MAX.jpg");
             item.setTitle("khach san " + i);
             item.setDiaChi("dia chi " + i);
             item.setGia(i * 2 + 10 + "");

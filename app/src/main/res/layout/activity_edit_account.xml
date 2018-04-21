@@ -4,73 +4,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.activity.RegisterActivity"
+    tools:context=".view.activity.EditAccountActivity"
     android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@color/colorPrimary"
-        >
-        <TextView
-            android:layout_width="match_parent"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_app"
+            android:id="@+id/ImagePhoto"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Đăng Ký Người Dùng"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="5dp"
-            android:textSize="20dp"
-            android:textAlignment="center"
+            android:background="@color/colorGreen"
+            android:text="Chọn Ảnh Đại Diện"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
             android:padding="10dp"
+            android:id="@+id/buttonSuaHinh"
             />
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:orientation="horizontal"
+        android:background="@color/colorGray"
+        ></LinearLayout>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Tên Người Sử Dụng"
+        android:text="Tên Người Dùng"
+        android:padding="20dp"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Số Điện Thoại"
+        android:text="SDT"
+        android:padding="20dp"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
-        />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Mật Khẩu"
-        android:inputType="textPassword"
-        />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Xác Nhận Mật Khẩu"
-        android:inputType="textPassword"
+        android:text="Email"
+        android:padding="20dp"
         />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="2"
+        android:padding="20dp"
         >
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Đăng Ký"
+            android:text="Xác Nhận"
             android:background="@color/colorGreen"
-            android:layout_weight="1"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hủy"
             android:background="@color/colorGray"
-            android:layout_weight="1"
-            android:id="@+id/buttonHuyRegister"
+            android:layout_marginLeft="180dp"
+            android:id="@+id/buttonHuyEdit"
             />
+
     </LinearLayout>
 
 </LinearLayout>
