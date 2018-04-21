@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    app:cardElevation="6dp"
+    app:cardUseCompatPadding="false"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearlayout_itemroom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/imageRoom"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/ic_launcher" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:id="@+id/textViewTenPhong"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewChiTietPhong"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray"
+            ></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/icon_restaurant"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Bữa Sáng Miễn Phí"
+                        android:paddingBottom="5dp"
+                        />
+                </LinearLayout>
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   >
+                   <ImageView
+                       android:layout_width="20dp"
+                       android:layout_height="20dp"
+                       android:src="@drawable/icon_tag"
+                       />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Không Hoàn Tiền"
+                       android:layout_marginLeft="5dp"
+                       android:paddingBottom="5dp"
+                       />
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   >
+                   <ImageView
+                       android:layout_width="20dp"
+                       android:layout_height="20dp"
+                       android:src="@drawable/icon_wifi"
+                       />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Wifi Miễn Phí"
+                       android:layout_marginLeft="5dp"
+                       />
+
+               </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginLeft="100dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20dp"
+                    android:id="@+id/textViewPriceRoom"
+                    android:textStyle="bold"
+                    android:paddingBottom="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Giá Cuối Cùng !"
+                    android:paddingBottom="5dp"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radius_button"
+                    android:text="Book Now"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:id="@+id/buttonBookRoom"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

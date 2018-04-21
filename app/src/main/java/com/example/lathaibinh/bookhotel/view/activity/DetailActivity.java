@@ -10,18 +10,18 @@ import android.widget.TextView;
 import com.example.lathaibinh.bookhotel.R;
 
 public class DetailActivity extends AppCompatActivity {
-    private TextView mTextViewTitle;
+    private TextView mTextViewTenKS;
     private Button mButtonChonPhong;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-        mTextViewTitle = findViewById(R.id.textView);
         mButtonChonPhong = findViewById(R.id.buttonChonPhong);
+        mTextViewTenKS = findViewById(R.id.textViewTenKS);
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
             String title = bundle.getString(DetailActivity.class.getName());
-            mTextViewTitle.setText(title);
+            mTextViewTenKS.setText(title);
         }
         mButtonChonPhong.setOnClickListener(new View.OnClickListener() {
             @Override

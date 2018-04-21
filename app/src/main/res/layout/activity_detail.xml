@@ -79,6 +79,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Tên Khách Sạn"
+                        android:id="@+id/textViewTenKS"
                         android:textStyle="bold"
                         android:textSize="15dp"
                         android:paddingBottom="5dp"/>
@@ -119,7 +120,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TIện nghi : vvvvvvvvvvv..............\n hjjjgfgfgfdgfdfgfdgfdgfdgdg" />
+                        android:text="TIện nghi : vvvvvvvvvvv..............\n hjjjgfgfgfdgfdfgfdgfdgfdgdg \n dsadasdsadasdsa \n dsadasdsadsadsa" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -151,7 +152,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="thông tin khách sạn \n dsadsad \n dsadsad \n dsadsad" />
+                        android:text="thông tin khách sạn \n dsadsad \n dsadsad \n dsadsad \n dasdsaasdsad \n dsadsadasdsadsa \n dsadasdsadsadasdasdsadsadsadsa" />
                 </LinearLayout>
             </LinearLayout>
 
