@@ -10,6 +10,7 @@ import com.example.lathaibinh.bookhotel.R;
 
 public class BookActivity extends AppCompatActivity {
     private Button mButtonDienThongTin;
+    private Button mButtonAccept;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +21,15 @@ public class BookActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent inten = new Intent(BookActivity.this,InfoActivity.class);
                 startActivity(inten);
+                finish();
+            }
+        });
+        mButtonAccept = findViewById(R.id.buttonAcceptBook);
+        mButtonAccept.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(BookActivity.this,CheckBookActivity.class);
+                startActivity(intent);
                 finish();
             }
         });

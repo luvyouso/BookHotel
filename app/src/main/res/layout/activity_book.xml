@@ -10,14 +10,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@color/colorGray"
+        android:background="@color/colorLightGray"
         >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Đặt chỗ của bạn"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
             />
     </LinearLayout>
     <LinearLayout
@@ -28,7 +30,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="5dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -39,16 +42,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:weightSum="2"
                 >
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:text="Nhận phòng"
+                    android:layout_weight="1"
                     />
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="50dp"
+                    android:layout_weight="1"
                     android:text="CN,15 thg 4 2018,14:00"
                     />
             </LinearLayout>
@@ -56,16 +61,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:weightSum="2"
                 >
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:text="Trả phòng"
+                    android:layout_weight="1"
                     />
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="50dp"
+                    android:layout_weight="1"
                     android:text="CN,15 thg 4 2018,14:00"
                     />
             </LinearLayout>
@@ -73,16 +80,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:weightSum="2"
                 >
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:text="Phòng"
+                    android:layout_weight="1"
                     />
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:layout_weight="1"
                     android:text="Tên Phòng"
                     />
             </LinearLayout>
@@ -92,14 +101,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@color/colorGray"
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Thông tin liên hệ"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:background="@color/colorLightGray"
             />
     </LinearLayout>
     <Button
@@ -113,37 +124,38 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@color/colorGray"
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Tổng giá tiền"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="5dp"
+            android:background="@color/colorLightGray"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="15dp"
             />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:padding="10dp"
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tổng giá tiền: 427.500"
-            />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Tài Khoản Mail (...) sẽ nhận được ... điểm"
-            android:textColor="@color/colorPrimary"
+            android:text="Tổng giá tiền: 427.500 VND"
+            android:textColor="@color/colorOrange"
+            android:textStyle="bold"
             />
     </LinearLayout>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Tiếp tục"
-            android:background="@color/colorGreen"
+            android:background="@drawable/radius_button"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/buttonAcceptBook"
             />
 </LinearLayout>

@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".view.activity.RegisterActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/background_login">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,27 +51,21 @@
         android:hint="Xác Nhận Mật Khẩu"
         android:inputType="textPassword"
         />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="2"
-        >
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Đăng Ký"
-            android:background="@color/colorGreen"
-            android:layout_weight="1"
+            android:background="@drawable/radius_button"
+            android:textColor="@color/colorWhite"
+            android:paddingTop="10dp"
             />
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hủy"
+            android:paddingTop="10dp"
             android:background="@color/colorGray"
-            android:layout_weight="1"
             android:id="@+id/buttonHuyRegister"
             />
-    </LinearLayout>
 
 </LinearLayout>

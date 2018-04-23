@@ -37,7 +37,7 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.google.code.gson:gson:2.8.2'
     implementation 'com.werb.pickphotoview:pickphotoview:0.4.6'  // Last Version
-    implementation ('com.werb.permissionschecker:permissionschecker:0.0.1-beta2', {
+    implementation('com.werb.permissionschecker:permissionschecker:0.0.1-beta2', {
         exclude group: 'com.android.support'
     })
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
